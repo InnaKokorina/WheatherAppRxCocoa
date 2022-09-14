@@ -1,0 +1,6 @@
+framework module Pods_WheatherAppRxCocoa {
+  umbrella header "Pods-WheatherAppRxCocoa-umbrella.h"
+
+  export *
+  module * { export * }
+}

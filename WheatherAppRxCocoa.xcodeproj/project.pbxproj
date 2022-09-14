@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		588EA2EFC6CE16E56485C35F /* Pods_WheatherAppRxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B56DA7EE27085D9E1BA4175 /* Pods_WheatherAppRxCocoa.framework */; };
+		F714CE8C28D214CF00F54DA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F714CE8B28D214CF00F54DA2 /* AppDelegate.swift */; };
+		F714CE8E28D214CF00F54DA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F714CE8D28D214CF00F54DA2 /* SceneDelegate.swift */; };
+		F714CE9028D214CF00F54DA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F714CE8F28D214CF00F54DA2 /* ViewController.swift */; };
+		F714CE9328D214CF00F54DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F714CE9128D214CF00F54DA2 /* Main.storyboard */; };
+		F714CE9528D214D800F54DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F714CE9428D214D800F54DA2 /* Assets.xcassets */; };
+		F714CE9828D214D800F54DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F714CE9628D214D800F54DA2 /* LaunchScreen.storyboard */; };
+		F714CEA128D2168500F54DA2 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F714CEA028D2168500F54DA2 /* WeatherModel.swift */; };
+		F714CEA428D21AC000F54DA2 /* URLRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F714CEA328D21AC000F54DA2 /* URLRequest+Extensions.swift */; };
+		F714CEA628D2665500F54DA2 /* URLString+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F714CEA528D2665500F54DA2 /* URLString+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32A653630B56D1B60FE587B7 /* Pods-WheatherAppRxCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheatherAppRxCocoa.debug.xcconfig"; path = "Target Support Files/Pods-WheatherAppRxCocoa/Pods-WheatherAppRxCocoa.debug.xcconfig"; sourceTree = "<group>"; };
+		3CBCF42F827785480B5C4F30 /* Pods-WheatherAppRxCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheatherAppRxCocoa.release.xcconfig"; path = "Target Support Files/Pods-WheatherAppRxCocoa/Pods-WheatherAppRxCocoa.release.xcconfig"; sourceTree = "<group>"; };
+		7B56DA7EE27085D9E1BA4175 /* Pods_WheatherAppRxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WheatherAppRxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F714CE8828D214CF00F54DA2 /* WheatherAppRxCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheatherAppRxCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F714CE8B28D214CF00F54DA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F714CE8D28D214CF00F54DA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F714CE8F28D214CF00F54DA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F714CE9228D214CF00F54DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F714CE9428D214D800F54DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F714CE9728D214D800F54DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F714CE9928D214D800F54DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F714CEA028D2168500F54DA2 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		F714CEA328D21AC000F54DA2 /* URLRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extensions.swift"; sourceTree = "<group>"; };
+		F714CEA528D2665500F54DA2 /* URLString+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLString+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F714CE8528D214CF00F54DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588EA2EFC6CE16E56485C35F /* Pods_WheatherAppRxCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A63AE27E98D304F391ACDF4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32A653630B56D1B60FE587B7 /* Pods-WheatherAppRxCocoa.debug.xcconfig */,
+				3CBCF42F827785480B5C4F30 /* Pods-WheatherAppRxCocoa.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D05A564F45AD603F71EADF79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B56DA7EE27085D9E1BA4175 /* Pods_WheatherAppRxCocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F714CE7F28D214CE00F54DA2 = {
+			isa = PBXGroup;
+			children = (
+				F714CE8A28D214CF00F54DA2 /* WheatherAppRxCocoa */,
+				F714CE8928D214CF00F54DA2 /* Products */,
+				A63AE27E98D304F391ACDF4E /* Pods */,
+				D05A564F45AD603F71EADF79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F714CE8928D214CF00F54DA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F714CE8828D214CF00F54DA2 /* WheatherAppRxCocoa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F714CE8A28D214CF00F54DA2 /* WheatherAppRxCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				F714CEA228D21A9300F54DA2 /* Extensions */,
+				F714CE9F28D2167400F54DA2 /* Model */,
+				F714CE8F28D214CF00F54DA2 /* ViewController.swift */,
+				F714CE8B28D214CF00F54DA2 /* AppDelegate.swift */,
+				F714CE8D28D214CF00F54DA2 /* SceneDelegate.swift */,
+				F714CE9128D214CF00F54DA2 /* Main.storyboard */,
+				F714CE9428D214D800F54DA2 /* Assets.xcassets */,
+				F714CE9628D214D800F54DA2 /* LaunchScreen.storyboard */,
+				F714CE9928D214D800F54DA2 /* Info.plist */,
+			);
+			path = WheatherAppRxCocoa;
+			sourceTree = "<group>";
+		};
+		F714CE9F28D2167400F54DA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F714CEA028D2168500F54DA2 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F714CEA228D21A9300F54DA2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F714CEA328D21AC000F54DA2 /* URLRequest+Extensions.swift */,
+				F714CEA528D2665500F54DA2 /* URLString+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F714CE8728D214CF00F54DA2 /* WheatherAppRxCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F714CE9C28D214D800F54DA2 /* Build configuration list for PBXNativeTarget "WheatherAppRxCocoa" */;
+			buildPhases = (
+				7382BF7523F4E4240B8E6C66 /* [CP] Check Pods Manifest.lock */,
+				F714CE8428D214CF00F54DA2 /* Sources */,
+				F714CE8528D214CF00F54DA2 /* Frameworks */,
+				F714CE8628D214CF00F54DA2 /* Resources */,
+				09AAFA62C532A9B72C5BBF9A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WheatherAppRxCocoa;
+			productName = WheatherAppRxCocoa;
+			productReference = F714CE8828D214CF00F54DA2 /* WheatherAppRxCocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F714CE8028D214CE00F54DA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F714CE8728D214CF00F54DA2 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F714CE8328D214CE00F54DA2 /* Build configuration list for PBXProject "WheatherAppRxCocoa" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F714CE7F28D214CE00F54DA2;
+			productRefGroup = F714CE8928D214CF00F54DA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F714CE8728D214CF00F54DA2 /* WheatherAppRxCocoa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F714CE8628D214CF00F54DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F714CE9828D214D800F54DA2 /* LaunchScreen.storyboard in Resources */,
+				F714CE9528D214D800F54DA2 /* Assets.xcassets in Resources */,
+				F714CE9328D214CF00F54DA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09AAFA62C532A9B72C5BBF9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WheatherAppRxCocoa/Pods-WheatherAppRxCocoa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WheatherAppRxCocoa/Pods-WheatherAppRxCocoa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WheatherAppRxCocoa/Pods-WheatherAppRxCocoa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7382BF7523F4E4240B8E6C66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WheatherAppRxCocoa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F714CE8428D214CF00F54DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F714CE9028D214CF00F54DA2 /* ViewController.swift in Sources */,
+				F714CE8C28D214CF00F54DA2 /* AppDelegate.swift in Sources */,
+				F714CEA128D2168500F54DA2 /* WeatherModel.swift in Sources */,
+				F714CEA428D21AC000F54DA2 /* URLRequest+Extensions.swift in Sources */,
+				F714CEA628D2665500F54DA2 /* URLString+Extensions.swift in Sources */,
+				F714CE8E28D214CF00F54DA2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F714CE9128D214CF00F54DA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F714CE9228D214CF00F54DA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F714CE9628D214D800F54DA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F714CE9728D214D800F54DA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F714CE9A28D214D800F54DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F714CE9B28D214D800F54DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F714CE9D28D214D800F54DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32A653630B56D1B60FE587B7 /* Pods-WheatherAppRxCocoa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WheatherAppRxCocoa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "inna-kokorina.WheatherAppRxCocoa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F714CE9E28D214D800F54DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CBCF42F827785480B5C4F30 /* Pods-WheatherAppRxCocoa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WheatherAppRxCocoa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "inna-kokorina.WheatherAppRxCocoa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F714CE8328D214CE00F54DA2 /* Build configuration list for PBXProject "WheatherAppRxCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F714CE9A28D214D800F54DA2 /* Debug */,
+				F714CE9B28D214D800F54DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F714CE9C28D214D800F54DA2 /* Build configuration list for PBXNativeTarget "WheatherAppRxCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F714CE9D28D214D800F54DA2 /* Debug */,
+				F714CE9E28D214D800F54DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F714CE8028D214CE00F54DA2 /* Project object */;
+}
